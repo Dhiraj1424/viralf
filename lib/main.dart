@@ -1,8 +1,8 @@
+
 import 'package:flutter/material.dart';
 import 'package:viralf/login_page.dart';
-
 import 'home.dart';
-
+// import 'package:google_fonts/google_fonts.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -13,9 +13,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.light,
       theme: ThemeData(
-        primarySwatch: Colors.purple
+        primarySwatch: Colors.purple,
+        // primaryTextTheme: GoogleTheme.
       ),
       darkTheme: ThemeData(
         primarySwatch:Colors.purple
