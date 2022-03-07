@@ -6,7 +6,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('hello flutter'),),
-      body: Center(child: Text('Hello',
+      body: Center(child: Text('Home page',
       textScaleFactor: 2.0,
       
       )),
