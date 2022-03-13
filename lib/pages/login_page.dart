@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:viralf/home.dart';
+import 'package:viralf/pages/home.dart';
 import 'package:viralf/utlis/routes.dart';
 
 class LoginPage extends StatefulWidget {
